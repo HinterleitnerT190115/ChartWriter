@@ -1,0 +1,23 @@
+﻿<Window x:Class="ChartWriter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChartWriter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinWidth="300" Loaded="Window_Loaded">
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Left" Width="150">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            
+
+        </Grid>
+        <Canvas Name="canvasChart" Background="Black"/>
+    </DockPanel>
+</Window>
